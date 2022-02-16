@@ -1,0 +1,16 @@
+C:\Users\irani\OneDrive\Documentos\Codigos-Sololearn\bin\Debug\net5.0\Codigos-Sololearn.exe
+C:\Users\irani\OneDrive\Documentos\Codigos-Sololearn\bin\Debug\net5.0\Codigos-Sololearn.deps.json
+C:\Users\irani\OneDrive\Documentos\Codigos-Sololearn\bin\Debug\net5.0\Codigos-Sololearn.runtimeconfig.json
+C:\Users\irani\OneDrive\Documentos\Codigos-Sololearn\bin\Debug\net5.0\Codigos-Sololearn.runtimeconfig.dev.json
+C:\Users\irani\OneDrive\Documentos\Codigos-Sololearn\bin\Debug\net5.0\Codigos-Sololearn.dll
+C:\Users\irani\OneDrive\Documentos\Codigos-Sololearn\bin\Debug\net5.0\ref\Codigos-Sololearn.dll
+C:\Users\irani\OneDrive\Documentos\Codigos-Sololearn\bin\Debug\net5.0\Codigos-Sololearn.pdb
+C:\Users\irani\OneDrive\Documentos\Codigos-Sololearn\obj\Debug\net5.0\Codigos-Sololearn.csproj.AssemblyReference.cache
+C:\Users\irani\OneDrive\Documentos\Codigos-Sololearn\obj\Debug\net5.0\Codigos-Sololearn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\irani\OneDrive\Documentos\Codigos-Sololearn\obj\Debug\net5.0\Codigos-Sololearn.AssemblyInfoInputs.cache
+C:\Users\irani\OneDrive\Documentos\Codigos-Sololearn\obj\Debug\net5.0\Codigos-Sololearn.AssemblyInfo.cs
+C:\Users\irani\OneDrive\Documentos\Codigos-Sololearn\obj\Debug\net5.0\Codigos-Sololearn.csproj.CoreCompileInputs.cache
+C:\Users\irani\OneDrive\Documentos\Codigos-Sololearn\obj\Debug\net5.0\Codigos-Sololearn.dll
+C:\Users\irani\OneDrive\Documentos\Codigos-Sololearn\obj\Debug\net5.0\ref\Codigos-Sololearn.dll
+C:\Users\irani\OneDrive\Documentos\Codigos-Sololearn\obj\Debug\net5.0\Codigos-Sololearn.pdb
+C:\Users\irani\OneDrive\Documentos\Codigos-Sololearn\obj\Debug\net5.0\Codigos-Sololearn.genruntimeconfig.cache
