@@ -49,10 +49,26 @@ namespace Codigos_Sololearn
                 x++;
             }
         }
+
+        static int exemploMetodoRecursivo(int num)
+        {
+            //Neste Exemplo de metodo recursivo usando o calculo fatorial 
+
+            //se o argumento for 1, retorne 1, pois o fatorial dele é 1
+            if(num == 1){
+            return 1;
+            }
+            // caso seja != 1 multiplique o argumento pelo metodo com o mesmo argumento -1
+            //Ex: argumento 4---> 4*3*2*1
+            return num * exemploMetodoRecursivo(num - 1);
+
+            //Chamando no metodo MAIN: WriteLine(exemplo(4));
+            //retornando o valor: 24
+        }
         static void Main(string[] args)
         {
             
-            
+            Console.WriteLine(exemploMetodoRecursivo(4));
         }
     }
 }
