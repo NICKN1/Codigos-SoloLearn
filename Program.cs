@@ -25,7 +25,7 @@ namespace Codigos_Sololearn
             
         }
 
-        static void desafio2()
+        static void codigo2()
         {
             /*============DESAFIO============
             You are an elementary school teacher and explaining multiplication to students.
@@ -51,6 +51,8 @@ namespace Codigos_Sololearn
         }
 
         static int exemploMetodoRecursivo(int num)
+
+        
         {
             //Neste Exemplo de metodo recursivo usando o calculo fatorial 
 
@@ -65,10 +67,57 @@ namespace Codigos_Sololearn
             //Chamando no metodo MAIN: WriteLine(exemplo(4));
             //retornando o valor: 24
         }
-        static void Main(string[] args)
+        
+        static void exemploPiramide(int n)
         {
-            
-            Console.WriteLine(exemploMetodoRecursivo(4));
+            for (int i = 1; i <= n; i++)
+            {
+                for (int j = i; j <= n; j++)                
+                {
+                    Console.WriteLine(" ");
+                }
+                for (int k = 1; k <= 2 * i - 1; k++)                
+                {
+                    Console.WriteLine("*" + " ");
+                }
+
+                Console.WriteLine();
+            }
         }
-    }
+
+        static void codigo3()
+        {
+            /*==================DESAFIO=================
+            Passing the first level of a video game awards the player 1 point. For each subsequent
+             level passed, the points awarded increment by 1 (2 for the 2nd level, 3 for the 3rd, 
+             and so on). The program you are given takes the number of passed levels as input. 
+             Complete the given function to take that number as an argument, and recursively 
+             calculate and return the total number of points given for all passed levels.
+            */
+            /*
+            static void Main(string[] args)
+        {
+            int levels = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(Points(levels));
+        }
+            */
+            static int Points(int levels)
+        {
+            //your code goes here
+            if(levels == 1)
+            {
+                return 1;
+            }
+
+            return levels + Points(levels - 1);
+
+        }
+        }
+    static void Main(string[] args)
+        {
+
+            
+        }
+}
 }
