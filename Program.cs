@@ -186,6 +186,57 @@ S           um returns the sum of all elements.
             Console.WriteLine(arr.Min());
             Console.WriteLine(arr.Sum());
     }
+    
+    static void StringsObjects()
+    {
+        //Strings are objects in C#, it support a number of useful properties and methods
+            string text = "Hi, my name is string";
+            char example;
+            //To found the last character of the string
+            example = text[text.Length-1];
+
+            //Length returns the length of the string.
+            Console.WriteLine(text.Length);
+
+            //IndexOf(value) returns the index of the first occurrence of the value within the string.
+            Console.WriteLine(text.IndexOf('s'));
+
+            //Insert(index, value) inserts the value into the string starting from the specified index.
+            text = text.Insert(21, "!");
+            Console.WriteLine(text);
+
+            //Replace(oldValue, newValue) replaces the specified value in the string.
+            text = text.Replace("Hi","Hello");
+            Console.WriteLine(text);
+
+            //Contains(value) returns true if the string contains the specified value.
+            if(text.Contains("is"))
+            {   Console.WriteLine("Found!");}
+
+            //Remove(index) removes all characters in the string from the specified index.
+            text = text.Remove(14);
+            Console.WriteLine(text);
+
+            /*Substring(index, length) returns a substring of the specified length, starting from 
+            the specified index. If length is not specified, the operation continues to the end of
+            the string.*/
+            text = text.Substring(3, 6);
+            Console.WriteLine(text);
+
+            //You can also access characters of a string by its index, just like accessing elements of an array:
+            Console.WriteLine(text[5]);
+
+            /*Let's create a program that will take a string, replace all occurrences of the word "dog" 
+            with "cat" and output the first sentence only.*/
+            string animalsText = "This is some text about a Lion. The Lion is a feline. This is the end.";
+            Console.WriteLine(animalsText);
+            //First i replace the word "Lion" with "Tiger"
+            animalsText = animalsText.Replace("Lion","Tiger");
+            Console.WriteLine(animalsText);
+            //Second i substring, starting  from index[0], until the first dot "." plus one, to take the dot too
+            animalsText = animalsText.Substring(0, animalsText.IndexOf(".")+1);
+            Console.WriteLine(animalsText);
+    }
     static void Main(string[] args)
         {
             
