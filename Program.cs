@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Codigos_Sololearn
 {
@@ -163,9 +164,30 @@ namespace Codigos_Sololearn
         */
     }
     
+    
+    static void ArrayProperties()
+    {
+        int[] arr = {2, 3, 4, 5};
+            //Length = number of elements //Rank = number of dimensions of the arrays
+            Console.WriteLine(arr.Length);
+            Console.WriteLine(arr.Rank);
+            Console.WriteLine(" ");
+            int[,] multiArray = new int[2,3];
+            Console.WriteLine(multiArray.Length);
+            Console.WriteLine(multiArray.Rank);
+
+            /*There are a number of methods available for arrays.
+            Max returns the largest value.
+            Min returns the smallest value.
+S           um returns the sum of all elements.
+            */
+            Console.WriteLine(" ");
+            Console.WriteLine(arr.Max());
+            Console.WriteLine(arr.Min());
+            Console.WriteLine(arr.Sum());
+    }
     static void Main(string[] args)
         {
-
             
         }
 }
