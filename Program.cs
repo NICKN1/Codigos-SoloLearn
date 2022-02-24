@@ -237,9 +237,55 @@ S           um returns the sum of all elements.
             animalsText = animalsText.Substring(0, animalsText.IndexOf(".")+1);
             Console.WriteLine(animalsText);
     }
+
+    static void codigo5()
+    {
+         /*=============DESAFIO===============
+            The program you are given defines an array with 10 words and takes a letter as input.
+            Write a program to iterate through the array and output words containing the taken letter.
+            If there is no such word, the program should output "No match".
+            */
+            string[] words = {
+                "home",
+                "programming",
+                "victory",
+                "C#",
+                "football",
+                "sport",
+                "book",
+                "learn",
+                "dream",
+                "fun"
+            };
+
+            string letter = Console.ReadLine();
+
+            string result = "0";
+
+            int count = 0;
+
+            while(count < 10)
+            {
+                if(words[count].Contains(letter))
+                {
+                    result = words[count];
+                    Console.WriteLine(result);
+                }
+
+                count++;
+            }
+
+            if(result == "0")
+            {
+                Console.WriteLine("No match");
+            }
+    }
+
+    
     static void Main(string[] args)
         {
-            
+           
+                   
         }
 }
 }
